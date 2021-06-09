@@ -1,0 +1,248 @@
+body {
+    background-color: #3D405B;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    color: #f2cc8f;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    padding: none;
+    color: #e07a5f;
+}
+
+.color-container p {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    line-height: 15px;
+    position: relative;
+    top: 42%;
+    transform: translateY(-50%);
+}
+
+.navigation, .navigation a {
+    text-align: center;
+    color: #f4f1de;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation a:hover {
+    color: #e07a5f;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.color-container,
+.font-container,
+.text-style-container {
+    width: 100%;
+    text-align: center;
+}
+
+.colors, 
+.fonts,
+.text-styles {
+    border-top: 4px solid #f2cc8f;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/** Colors **/
+
+.color-panel {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.eggshell {
+    background-color: #f4f1de;
+    color: #3D405B;
+    border-radius: 150px;
+}
+
+.terra-cotta {
+    background-color: #e07a5f;
+    color: #3D405B;
+    border-radius: 150px;
+}
+
+.independence {
+    background-color: #3D405B;
+    color: #f4f1de;
+    border: 1px solid #f4f1de;
+    border-radius: 150px;
+}
+
+.green-sheen {
+    background-color: #81b82a;
+    color: #3D405B;
+    border-radius: 150px;
+}
+
+.deep-champagne {
+    background-color: #f2cc8f;
+    color: #3D405B;
+    border-radius: 150px;
+}
+
+/** Fonts **/
+
+.font-panel {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    vertical-align: middle;
+    margin: 20px 10px;
+    min-height: 100px;
+    border: 2px dotted #f2cc8f;
+    color: #fff;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.roboto h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.roboto100 {
+    font-weight: 100;
+    padding: 5px;
+}
+
+.roboto400 {
+    font-weight: 400;
+    padding: 5px;
+}
+
+.roboto700 {
+    font-weight: 700;
+    padding: 5px;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.raleway h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.raleway100 {
+    font-weight: 100;
+    padding: 5px;
+}
+
+.raleway400 {
+    font-weight: 400;
+    padding: 5px;
+}
+
+.raleway700 {
+    font-weight: 700;
+    padding: 5px;
+}
+
+.ruda {
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+}
+
+.ruda h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.ruda400 {
+    font-weight: 400;
+    padding: 5px;
+}
+
+.ruda700 {
+    font-weight: 700;
+    padding: 5px;
+}
+
+.abril-fatface {
+    font-family: 'Abril Fatface', serif;
+    font-size: 16px;
+}
+
+.abril-fatface h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.abril-fatface400 {
+    font-weight: 400;
+    padding: 5px;
+}
+
+/** Text Style **/
+
+.text-styles {
+    text-align: center;
+}
+
+.text-style-panel {
+    display:inline-block;
+    width: 250px;
+    height: 150px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px 10px;
+    min-height: 100px;
+    border: 2px dotted #f2cc8f;
+    color: #fff;
+}
+
+.text-style-panel h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text-style-panel ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-style-panel li {
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+}
